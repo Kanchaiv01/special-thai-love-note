@@ -213,29 +213,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Gallery Section */}
-        <section className={`mb-20 transition-all duration-1000 delay-900 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent text-center mb-12">
-            ภาพเล่าเรื่อง
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-            {galleryImages.map((image, index) => (
-              <div key={index} className="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                <img 
-                  src={image.src} 
-                  alt={image.caption}
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="absolute bottom-4 left-4 right-4 text-white text-sm font-medium">
-                    {image.caption}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
         {/* Music Sharing Section */}
         <section className={`mb-20 transition-all duration-1000 delay-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-4xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent text-center mb-12">
