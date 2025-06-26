@@ -133,17 +133,6 @@ const Index = () => {
               มาทำความรู้จักผมกัน
             </h2>
             
-            <div className="relative inline-block mb-8">
-              <img 
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face" 
-                alt="รูปโปรไฟล์" 
-                className="w-48 h-48 rounded-full object-cover border-4 border-gradient-to-r from-pink-400 to-purple-400 shadow-2xl transform hover:scale-105 transition-transform duration-300"
-              />
-              <div className="absolute -bottom-2 -right-2 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full p-3 shadow-lg animate-bounce">
-                <Heart className="text-white w-6 h-6" fill="currentColor" />
-              </div>
-            </div>
-
             <Card className="max-w-4xl mx-auto bg-white/80 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
                 <p className="text-gray-700 leading-relaxed text-lg space-y-4">
