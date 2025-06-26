@@ -10,7 +10,7 @@ import {
   CloudRain,
   Handshake,
   MessageCircle,
-  Seedling,
+  Sprout,
   Smile,
   Users
 } from 'lucide-react';
@@ -75,7 +75,7 @@ const Index = () => {
       description: "ให้ความสำคัญกับการรับฟังและเข้าใจมุมมองของผู้อื่น"
     },
     {
-      icon: Seedling,
+      icon: Sprout,
       title: "การเติบโต",
       description: "เชื่อในการพัฒนาตนเองและเป็นเวอร์ชันที่ดีขึ้นในทุกๆ วัน"
     },
