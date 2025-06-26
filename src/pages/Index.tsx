@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { 
   Heart, 
@@ -12,7 +11,9 @@ import {
   MessageCircle,
   Sprout,
   Smile,
-  Users
+  Users,
+  Music,
+  ExternalLink
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -242,6 +243,43 @@ const Index = () => {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* Music Sharing Section */}
+        <section className={`mb-20 transition-all duration-1000 delay-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent text-center mb-12">
+            เพลงที่อยากแชร์ให้เธอฟัง
+          </h2>
+          
+          <Card className="max-w-2xl mx-auto bg-gradient-to-br from-white to-indigo-50 border-0 shadow-2xl overflow-hidden">
+            <CardContent className="p-8 text-center">
+              <div className="bg-gradient-to-r from-indigo-500 to-purple-500 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 animate-pulse">
+                <Music className="text-white w-10 h-10" />
+              </div>
+              
+              <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+                เพลงพิเศษจากใจผม
+              </h3>
+              
+              <p className="text-gray-600 mb-8 leading-relaxed">
+                มีเพลงเพลงหนึ่งที่ผมอยากให้เธอได้ฟัง เป็นเพลงที่ทำให้ผมนึกถึงเธอ
+                และหวังว่าเธอจะชอบเหมือนกับที่ผมชอบ
+              </p>
+              
+              <Button 
+                onClick={() => window.open('https://music.youtube.com/watch?v=EXZaOFw021M&si=iMpjW7zWIAArt32v', '_blank')}
+                className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-indigo-600 hover:via-purple-600 hover:to-pink-600 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 group"
+              >
+                <Headphones className="mr-3 w-6 h-6 group-hover:animate-pulse" />
+                ฟังเพลงที่ YouTube Music
+                <ExternalLink className="ml-3 w-5 h-5" />
+              </Button>
+              
+              <p className="text-sm text-gray-500 mt-4 italic">
+                คลิกเพื่อเปิดในแท็บใหม่
+              </p>
+            </CardContent>
+          </Card>
         </section>
 
         {/* Special Message Section */}
