@@ -92,15 +92,6 @@ const Index = () => {
     }
   ];
 
-  const galleryImages = [
-    { src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop", caption: "วิวพระอาทิตย์ตกที่ภูเขา" },
-    { src: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop", caption: "ช่วงเวลาสบายๆ กับสัตว์เลี้ยง" },
-    { src: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop", caption: "มื้ออาหารที่ภูมิใจนำเสนอ" },
-    { src: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=300&fit=crop", caption: "การเดินทางครั้งล่าสุด" },
-    { src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop", caption: "กับเพื่อนๆ ที่น่ารัก" },
-    { src: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=300&fit=crop", caption: "ช่วงเวลาที่คิดงานศิลปะ" }
-  ];
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 font-sarabun">
       {/* Floating hearts animation */}
