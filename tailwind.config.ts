@@ -70,7 +70,8 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			fontFamily: {
-				'sarabun': ['Sarabun', 'sans-serif'],
+				'kanit': ['Kanit', 'sans-serif'],
+				'inter': ['Inter', 'sans-serif'],
 			},
 			keyframes: {
 				'accordion-down': {
@@ -122,6 +123,14 @@ export default {
 					'50%': {
 						transform: 'translateY(-25px) rotate(5deg)'
 					}
+				},
+				'glow': {
+					'0%, 100%': {
+						filter: 'brightness(1) blur(0px)'
+					},
+					'50%': {
+						filter: 'brightness(1.2) blur(1px)'
+					}
 				}
 			},
 			animation: {
@@ -130,7 +139,8 @@ export default {
 				'fade-in': 'fade-in 0.8s ease-out',
 				'float-0': 'float-0 6s ease-in-out infinite',
 				'float-1': 'float-1 8s ease-in-out infinite',
-				'float-2': 'float-2 7s ease-in-out infinite'
+				'float-2': 'float-2 7s ease-in-out infinite',
+				'glow': 'glow 3s ease-in-out infinite'
 			}
 		}
 	},
