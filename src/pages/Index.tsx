@@ -223,12 +223,12 @@ const Index = () => {
               </div>
               
               <h3 className="text-3xl font-semibold text-slate-800 mb-6 font-inter">
-                เพลงพิเศษจากใจพี่
+                เพลงพิเศษจากใจกรรชัย
               </h3>
               
               <p className="text-slate-600 mb-10 leading-relaxed text-xl font-light">
-                มีเพลงเพลงหนึ่งที่พี่อยากให้เธอได้ฟัง เป็นเพลงที่ทำให้พี่นึกถึงเธอ
-                และหวังว่าเธอจะชอบเหมือนกับที่พี่ชอบ
+                มีเพลงเพลงหนึ่งที่พี่อยากให้อังได้ฟัง เป็นเพลงที่ทำให้พี่นึกถึงอัง
+                และหวังว่าอังจะชอบเหมือนกับที่พี่ชอบ
               </p>
               
               <Button 
@@ -250,7 +250,7 @@ const Index = () => {
         {/* Special Message Section */}
         <section className={`text-center mb-24 transition-all duration-1000 delay-1100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 to-red-600 bg-clip-text text-transparent mb-12 font-inter">
-            มีบางอย่างที่พี่อยากบอกคุณ...
+            มีบางอย่างที่พี่อยากบอกกับคนสำคัญของพี่...
           </h2>
           
           <Button 
