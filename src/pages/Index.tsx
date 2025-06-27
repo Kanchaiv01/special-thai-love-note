@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { 
   Heart, 
@@ -52,18 +51,6 @@ const Index = () => {
       title: "การกินของอร่อย",
       description: "มีความสุขกับการได้ลิ้มลองอาหารอร่อยๆ และค้นพบรสชาติใหม่ๆ อยู่เสมอ",
       color: "from-orange-500 to-amber-500"
-    },
-    {
-      icon: BookOpen,
-      title: "การอ่าน",
-      description: "หลงใหลในการอ่านหนังสือและบทความต่างๆ เพื่อเพิ่มพูนความรู้และมุมมอง",
-      color: "from-emerald-500 to-teal-500"
-    },
-    {
-      icon: Heart,
-      title: "ความสัมพันธ์",
-      description: "ให้ความสำคัญกับความสัมพันธ์ที่ดี ซื่อสัตย์ และเข้าใจกัน",
-      color: "from-red-500 to-pink-500"
     }
   ];
 
