@@ -122,14 +122,14 @@ const Index = () => {
         <header className={`text-center mb-20 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="relative">
             <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-8 animate-fade-in font-inter tracking-tight">
-              แด่แกคนพิเศษของกันต์..
+              แด่เด็กดื้อคนพิเศษของกันต์..
             </h1>
             <div className="absolute -top-6 -right-6 animate-glow">
               <Heart className="text-pink-500 w-12 h-12" fill="currentColor" />
             </div>
           </div>
           <p className="text-2xl md:text-3xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-light">
-            ยินดีต้อนรับสู่โลกใบเล็กๆ ของพี่
+            ยินดีต้อนรับสู่โลกใบเล็กๆ ของกรรชัย
           </p>
         </header>
 
